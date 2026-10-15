@@ -1,0 +1,130 @@
+import { useState } from 'react'
+import { useActiveSection } from '@/hooks/useActiveSection'
+import { useScrollVisibility } from '@/hooks/useScrollVisibility'
+import { cn } from '@/lib/utils'
+
+const navItems = [
+  { id: 'about', label: 'About' },
+  { id: 'skills', label: 'Skills' },
+  { id: 'projects', label: 'Projects' },
+  { id: 'experience', label: 'Experience' },
+  { id: 'education', label: 'Education' },
+  { id: 'achievements', label: 'Achievements' },
+  { id: 'certifications', label: 'Certifications' },
+  { id: 'contact', label: 'Contact' },
+]
+
+const socialLinks = [
+  { label: 'GitHub', href: 'https://github.com/sivaasp5228' },
+  { label: 'LinkedIn', href: 'https://linkedin.com' },
+  { label: 'Email', href: 'mailto:contact@sivaasp.dev' },
+]
+
+export function Navigation() {
+  const activeSection = useActiveSection()
+  const isVisible = useScrollVisibility()
+  const [mobileMenuOpen, setMobileMenuOpen] = useState(false)
+
+  const scrollToSection = (sectionId: string) => {
+    const element = document.getElementById(sectionId)
+    if (element) {
+      element.scrollIntoView({ behavior: 'smooth' })
+      setMobileMenuOpen(false)
+    }
+  }
+
+  return (
+    <>
+      {/* Mobile Header - Only visible on mobile */}
+      <div className="fixed top-0 left-0 right-0 z-50 p-6 flex justify-between items-start md:hidden">
+        {/* Menu Button - Left */}
+        <div className="relative">
+          <button
+            onClick={() => setMobileMenuOpen(!mobileMenuOpen)}
+            className="text-xs font-mono uppercase tracking-widest text-white mix-blend-difference"
+          >
+            {mobileMenuOpen ? 'Close' : 'Menu'}
+          </button>
+
+          {/* Mobile Menu Dropdown */}
+          <div
+            className={cn(
+              'flex flex-col items-start gap-3 mt-6 transition-all duration-300 bg-black/90 p-4 border border-zinc-800 backdrop-blur-md rounded-sm',
+              mobileMenuOpen ? 'opacity-100 translate-y-0' : 'opacity-0 -translate-y-4 pointer-events-none'
+            )}
+          >
+            {navItems.map((item) => (
+              <button
+                key={item.id}
+                onClick={() => scrollToSection(item.id)}
+                className={cn(
+                  'text-xs font-mono uppercase tracking-wider text-white transition-all duration-300 relative py-1 text-left',
+                  'hover:opacity-60',
+                  activeSection === item.id && 'text-zinc-200 border-b border-white'
+                )}
+              >
+                {item.label}
+              </button>
+            ))}
+          </div>
+        </div>
+
+        {/* Social Links - Right (Mobile) */}
+        <div className="flex items-center gap-4">
+          {socialLinks.map((link) => (
+            <a
+              key={link.label}
+              href={link.href}
+              target={link.href.startsWith('mailto') ? undefined : '_blank'}
+              rel={link.href.startsWith('mailto') ? undefined : 'noopener noreferrer'}
+              className="text-xs font-mono text-white mix-blend-difference hover:opacity-60 transition-opacity uppercase tracking-wider"
+            >
+              {link.label}
+            </a>
+          ))}
+        </div>
+      </div>
+
+      {/* Desktop Social Links - Fixed Top Right (hidden on mobile) */}
+      <div className="hidden md:block fixed top-0 right-0 z-50 p-6 md:p-10">
+        <div className="flex items-center gap-6 justify-end">
+          {socialLinks.map((link) => (
+            <a
+              key={link.label}
+              href={link.href}
+              target={link.href.startsWith('mailto') ? undefined : '_blank'}
+              rel={link.href.startsWith('mailto') ? undefined : 'noopener noreferrer'}
+              className="text-xs font-mono uppercase tracking-widest text-white mix-blend-difference hover:opacity-60 transition-opacity"
+            >
+              {link.label}
+            </a>
+          ))}
+        </div>
+      </div>
+
+      {/* Desktop Navigation Items - Fixed Bottom Right (hidden on mobile) */}
+      <nav 
+        className={cn(
+          'hidden md:block fixed bottom-0 right-0 z-50 p-6 md:p-10 transition-all duration-500',
+          isVisible ? 'opacity-100 translate-x-0' : 'opacity-0 translate-x-8 pointer-events-none'
+        )}
+      >
+        <div className="flex flex-col items-end gap-2.5">
+          {navItems.map((item) => (
+            <button
+              key={item.id}
+              onClick={() => scrollToSection(item.id)}
+              className={cn(
+                'text-xs font-mono tracking-widest uppercase text-white mix-blend-difference transition-all duration-300 relative py-0.5',
+                'hover:opacity-60',
+                activeSection === item.id && 'after:absolute after:bottom-0 after:left-0 after:w-full after:h-px after:bg-white text-white font-medium'
+              )}
+            >
+              {item.label}
+            </button>
+          ))}
+        </div>
+      </nav>
+    </>
+  )
+}

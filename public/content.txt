@@ -1,0 +1,348 @@
+# SIVAA SP
+### AI & ML Student | Full Stack Developer | AI Automation Enthusiast
+
+**Building intelligent solutions. Automating workflows. Turning ideas into impact.**
+
+I'm SIVAA SP, a B.Sc. Artificial Intelligence and Machine Learning student at KPR College of Arts, Science and Research, Tamil Nadu, India. I'm passionate about building AI-powered applications, developing full-stack web solutions, and automating real-world workflows.
+
+I enjoy transforming ideas into practical digital products through programming, AI integration, creative problem-solving, and collaborative innovation. From developing intelligent workflow systems to participating in hackathons, I continuously explore new technologies and challenge myself to build solutions that create meaningful impact.
+
+**Currently exploring:** Artificial Intelligence, Machine Learning, Generative AI, Full Stack Development, AI Agents, and Workflow Automation.
+
+---
+
+## ABOUT ME
+
+I'm an aspiring AI and software developer who believes technology should solve real problems, simplify complex processes, and create opportunities for innovation.
+
+My journey combines programming, web development, AI-powered automation, entrepreneurship, and teamwork. I have worked on academic projects, AI prototypes, hackathon solutions, and digital products while continuously improving my technical and problem-solving abilities.
+
+Beyond coding, I actively participate in technology communities, internships, hackathons, and collaborative projects. Through my involvement with Innovate Graphicz and Team INNOVATRIX, I have explored product development, branding, research, teamwork, and presenting innovative ideas.
+
+My goal is to become a skilled AI engineer and software developer capable of building intelligent, scalable, and impactful technology solutions.
+
+## EDUCATION
+
+**Bachelor of Science — Artificial Intelligence and Machine Learning (B.Sc. AIML)**
+
+KPR College of Arts, Science and Research (KPRCAS), Tamil Nadu, India
+
+- Department: Artificial Intelligence and Machine Learning
+- Focus areas: Programming, AI, Machine Learning, Data, and Software Development
+- Learning interests: Intelligent systems, Generative AI, full-stack applications, and automation
+
+## TECHNICAL SKILLS
+
+**Programming Languages**
+- Java
+- Python
+- JavaScript
+- SQL
+
+**Frontend Development**
+- HTML5
+- CSS3
+- JavaScript
+- React.js
+- Vite
+- Tailwind CSS
+- Responsive Web Design
+
+**Backend Development**
+- Node.js
+- Express.js
+- Python Flask
+- REST API integration
+
+**Databases and Cloud**
+- MySQL
+- PostgreSQL
+- Firebase Firestore
+- Supabase
+- MongoDB Atlas
+- Git and GitHub
+- Vercel and Netlify
+
+**Artificial Intelligence**
+- Generative AI
+- LLM-powered applications
+- Gemini API integration
+- AI workflow automation
+- Prompt engineering
+- AI chatbot integration
+- Document intelligence
+- Speech-to-text and transcription workflows
+- Vector databases and embeddings
+
+**AI and Productivity Tools**
+- ChatGPT
+- Google Gemini
+- Claude
+- Gamma AI
+- Grok AI
+- Canva AI
+- Google Veo Flow
+- ElevenLabs
+
+**Professional Skills**
+- Problem-solving
+- Team collaboration
+- Leadership
+- Creative thinking
+- Communication
+- Presentation
+- Adaptability
+- Research and analysis
+
+## FEATURED PROJECTS
+
+### 1. LegalEase — AI-Powered Legal Document Intelligence
+
+An AI-based legal document analysis application designed to help users understand legal documents and extract meaningful information from uploaded files.
+
+**Key features**
+- Legal document upload and analysis
+- PDF-based document processing
+- AI-assisted extraction of relevant information
+- Simplified presentation of complex legal content
+- Web-based interface for interacting with the application
+
+**Technologies:** Python, Streamlit, Generative AI, PDF processing.
+
+**Live Demo:** https://legalease-innovatrix.streamlit.app/
+
+**Team:** INNOVATRIX
+
+### 2. Innoflow AI — Autonomous Workflow Optimizer
+
+An AI-powered workflow intelligence concept designed to analyze processes, identify inefficiencies, and support better operational decisions.
+
+**Key features**
+- Process mining and workflow discovery
+- Workflow analysis and optimization
+- AI-assisted decision intelligence
+- Gemini API integration
+- Exploration of automated workflow recommendations
+
+**Technologies:** React.js, Python, Gemini API, AI workflow tools.
+
+### 3. EnrollAI — Intelligent Enrollment Management Platform
+
+A web application focused on simplifying enrollment workflows and providing a structured administrative interface.
+
+**Key features**
+- Administrative dashboard
+- Enrollment and lead management interface
+- Data visualization components
+- Firebase-based backend planning
+- Potential Google Sheets synchronization and workflow automation
+
+**Technologies:** React 18, Vite, TypeScript, Tailwind CSS, Framer Motion, Recharts, Firebase, n8n.
+
+### 4. AI Meeting-to-Execution Operator
+
+An AI project concept focused on transforming meeting recordings into structured, searchable information and actionable outcomes.
+
+**Key features**
+- Audio and video processing
+- Speech transcription
+- Speaker diarization
+- Transcript organization and chunking
+- Embedding generation and vector storage
+- Meeting intelligence and action-item extraction
+
+**Technologies explored:** Python, OpenAI APIs, LangChain, MoviePy, ChromaDB, speech-processing pipelines.
+
+### 5. BookMyShow Console Application
+
+A Java-based console application developed to demonstrate programming fundamentals and object-oriented design through a simplified movie-booking workflow.
+
+**Key features**
+- Administrative workflows
+- Seat-map management using two-dimensional arrays
+- Structured booking-related operations
+- Object-oriented programming concepts
+- Console-based interaction
+
+**Technologies:** Java, OOP, Arrays, Data Structures.
+
+### 6. AI Research Workflow System
+
+An AI-assisted research workflow concept designed to support information gathering, content organization, and report preparation.
+
+**Key features**
+- AI-assisted research
+- Prompt-based content generation
+- Structured information organization
+- Workflow support using AI productivity tools
+
+**Tools:** ChatGPT, Google Gemini, Gamma AI.
+
+### 7. AI Paper and Report Generator with Citation Intelligence
+
+A Generative AI hackathon project focused on supporting research-paper and report creation with an emphasis on citation-aware content generation.
+
+**Project focus**
+- AI-assisted report preparation
+- Research content organization
+- Citation intelligence
+- Improving the structure and usability of generated documents
+
+### 8. Smart Campus Event Management
+
+A campus-focused hackathon concept aimed at making event organization and participation more structured through digital workflows.
+
+**Project focus**
+- Campus event coordination
+- Digital event-management workflows
+- Student participation and organization
+- User-friendly event interfaces
+
+### 9. Multimodal Evidence Review System
+
+A technical project exploring a hybrid Vision-Language Model and rule-engine approach to reviewing multimodal evidence.
+
+**Project focus**
+- Visual evidence analysis
+- Combining model-based reasoning with rule-based validation
+- Structured output generation
+- Evaluation of automated review workflows
+
+## INTERNSHIP EXPERIENCE
+
+### EFOS — AI Tools & Automation Internship
+
+Participated in a structured internship focused on AI tools, automation, and practical technology assignments.
+
+**Experience highlights**
+- Explored AI-powered productivity and automation tools
+- Integrated a Chatbase chatbot into a website
+- Worked with AI video-generation workflows
+- Explored tools such as Google Veo Flow, Grok Imagine, and ElevenLabs
+- Completed assigned practical challenges and project work
+
+**Practical work:** https://nexoraai-efos.netlify.app/
+
+### Thiranex — Full Stack Web Development Internship
+
+Completed a full-stack web development internship focused on strengthening practical web-development skills.
+
+**Learning areas**
+- Frontend web development
+- Website structure and styling
+- Programming fundamentals
+- Full-stack development concepts
+- Building practical web experiences
+
+## HACKATHONS & ACHIEVEMENTS
+
+### EFOS SkillUp Hackathon 2026
+- Participated as Team INNOVATRIX.
+- Achieved **Top 9 position (Top 10)**.
+- Received an opportunity for the EFOS Free Six-Week Virtual Internship Program.
+
+### GEN AI Hackathon — Aqua Tech Foundation
+- Participated as Team INNOVATRIX.
+- Achieved **Runner-Up** recognition.
+- Worked on an AI paper and report generation concept with citation intelligence.
+
+### Hacksprint 2.0
+- Participated in a 36-hour hackathon.
+- Collaborated with Team INNOVATRIX to develop and present an innovative solution.
+
+### NANO HACKATHON — CITE Spotlight 2026
+- Explored a Smart Campus Event Management solution.
+- Participated in collaborative product ideation and development.
+
+### NxtWave CCBP 4.0 Academy — DSA Codeverse
+- Completed the first DSA Codeverse challenge.
+- Achieved **32nd rank among 700 participants**.
+- Earned a beginner-level DSA achievement badge.
+
+## ENTREPRENEURSHIP & LEADERSHIP
+
+### Innovate Graphicz
+**Digital Branding | Web Development | Creative Technology**
+
+Innovate Graphicz is a student-led digital branding initiative incubated under the KPR Incubation Hub.
+
+The initiative focuses on combining creativity, technology, and digital strategy to help businesses strengthen their online presence.
+
+**Areas of involvement**
+- Website development
+- Graphic and logo design
+- Social media management
+- Video editing and content creation
+- Digital branding
+- Growth consultancy
+- AI-assisted creative workflows
+
+**Brand philosophy:** Impact-First Digital Strategy — using digital technology and creative communication to support meaningful business and sustainability goals.
+
+### Team INNOVATRIX
+Actively collaborated on hackathon and technology projects involving AI, research, development, testing, and presentations.
+
+Experience gained through teamwork includes:
+- Collaborative product development
+- Technical problem-solving
+- Project coordination
+- Research and ideation
+- Demonstrating and presenting solutions
+
+## CERTIFICATIONS & LEARNING
+
+**Learning achievements and credentials**
+
+- HubSpot Academy — Beginner SEO Certification
+- IBM learning badges — AI & Data, IBM Z Skills, Modernization, and Security
+- NxtWave CCBP 4.0 Academy — DSA Codeverse achievement
+- EFOS — AI Tools & Automation Internship
+- Thiranex — Full Stack Web Development Internship
+- NPTEL — Database Management Systems course registration
+
+Additional courses, badges, and credentials can be added as they are completed.
+
+## MY DEVELOPMENT JOURNEY
+
+I believe becoming a strong developer is about continuous learning, consistent practice, and building real projects.
+
+My current journey focuses on:
+- Strengthening Java and Python programming
+- Improving data structures and algorithms
+- Developing full-stack applications
+- Exploring Generative AI and AI agents
+- Building practical automation pipelines
+- Learning database design and API integration
+- Participating in hackathons and collaborative projects
+
+I approach every project as an opportunity to learn, experiment, and improve.
+
+## MY CAREER GOALS
+
+I aspire to work at the intersection of Artificial Intelligence, software engineering, and automation.
+
+I'm interested in opportunities where I can contribute to:
+- AI engineering
+- Full-stack development
+- Generative AI applications
+- Intelligent workflow automation
+- Software product development
+- Research-driven innovation
+
+My long-term goal is to build useful, reliable, and scalable technology products that solve real-world problems.
+
+## LET'S CONNECT
+
+I'm always interested in connecting with developers, founders, researchers, mentors, and technology enthusiasts who enjoy building meaningful products.
+
+Whether it's an AI idea, a software project, a hackathon, or an opportunity to collaborate, I'm open to learning and creating together.
+
+**Let's turn innovative ideas into working solutions.**
+
+- Location: Tamil Nadu, India
+- Email: [Add your professional email]
+- LinkedIn: [Add your LinkedIn profile URL]
+- GitHub: [Add your GitHub profile URL]
+- Portfolio: [Add your deployed portfolio URL]
+
+**BUILD. INNOVATE. AUTOMATE. REPEAT.**
