@@ -11,151 +11,134 @@ interface Project {
   liveDemo?: string
   team?: string
   imageCaption?: string
+  src?: string
 }
+
 
 const projects: Project[] = [
   {
     number: '01',
-    title: 'LegalEase',
-    subtitle: 'AI-Powered Legal Document Intelligence',
-    team: 'Team INNOVATRIX',
+    title: 'KPRCAS Website Development',
+    subtitle: 'Institutional Website & Digital Experience',
+    src: '/kprcas.png',
+    liveDemo:'https://kprcas.ac.in',
     description:
-      'An AI-based legal document analysis application designed to help users understand complex legal documents and extract meaningful, structured information from uploaded PDF files.',
+      'Contributed as a UI & Media Associate, supporting website interface design, visual content development, and digital presentation to enhance the colleges online presence and user experience.',
     features: [
-      'Legal document upload and analysis',
-      'PDF-based document processing',
-      'AI-assisted extraction of critical clauses',
-      'Simplified presentation of complex legal terms',
-      'Interactive web-based interface',
+      'Institutional information and content presentation',
+      'Responsive website design across devices',
+      'Structured navigation and user experience',
+      'Modern UI design and reusable components',
+      'Improved digital accessibility and usability',
     ],
-    technologies: ['Python', 'Streamlit', 'Generative AI', 'PDF Processing'],
-    liveDemo: 'https://legalease-innovatrix.streamlit.app/',
-    imageCaption: 'LEGALEASE — STREAMLIT & GENAI PLATFORM',
+    technologies: [
+      'HTML5',
+      'CSS3',
+      'JavaScript',
+      'Responsive Web Design',
+    ],
+    imageCaption: 'KPRCAS — INSTITUTIONAL DIGITAL EXPERIENCE',
   },
   {
     number: '02',
-    title: 'Innoflow AI',
-    subtitle: 'Autonomous Workflow Optimizer',
+    title: 'EnrollAI Platform',
+    subtitle: 'Intelligent Enrollment & Lead Management',
+    src: '/enroll.png',
+    liveDemo:'https://enroll-ai-efos.vercel.app/',
     description:
-      'An AI-powered workflow intelligence concept designed to analyze processes, identify operational bottlenecks and inefficiencies, and provide automated decision intelligence.',
-    features: [
-      'Process mining and workflow discovery',
-      'Workflow analysis and optimization',
-      'AI-assisted decision intelligence',
-      'Gemini API integration',
-      'Automated workflow recommendations',
-    ],
-    technologies: ['React.js', 'Python', 'Gemini API', 'AI Workflow Tools'],
-    imageCaption: 'INNOFLOW AI — WORKFLOW DISCOVERY ENGINE',
-  },
-  {
-    number: '03',
-    title: 'EnrollAI',
-    subtitle: 'Intelligent Enrollment Management Platform',
-    description:
-      'A full-stack web application designed to simplify institutional enrollment workflows and deliver a structured, real-time administrative intelligence dashboard.',
+      'A full-stack enrollment management platform designed to streamline institutional admissions workflows through an intuitive administrative dashboard, data visualization, and automation-ready integrations.',
     features: [
       'Administrative dashboard and analytics',
       'Enrollment and lead management interface',
-      'Data visualization components & charts',
-      'Firebase backend architecture planning',
-      'Google Sheets synchronization & n8n automation',
+      'Interactive data visualization and charts',
+      'Firebase integration architecture',
+      'Google Sheets synchronization and n8n automation planning',
     ],
-    technologies: ['React 18', 'Vite', 'TypeScript', 'Tailwind CSS', 'Framer Motion', 'Firebase', 'n8n'],
-    imageCaption: 'ENROLLAI — DASHBOARD & WORKFLOW AUTOMATION',
+    technologies: [
+      'React 18',
+      'Vite',
+      'TypeScript',
+      'Tailwind CSS',
+      'Framer Motion',
+      'Supabase',
+      'n8n',
+    ],
+    imageCaption: 'ENROLLAI — ENROLLMENT INTELLIGENCE DASHBOARD',
+  },
+  {
+    number: '03',
+    title: 'LegalEase',
+    subtitle: 'AI-Powered Legal Document Intelligence',
+    team: 'Team INNOVATRIX',
+    src: "/legal.png",
+    liveDemo: "https://legalease-innovatrix.streamlit.app/",
+    description:
+      'An AI-powered legal document analysis application that helps users understand complex legal documents and extract meaningful information from uploaded PDF files through an accessible web interface.',
+    features: [
+      'Legal document upload and analysis',
+      'PDF-based document processing',
+      'AI-assisted extraction of important clauses',
+      'Simplified presentation of complex legal terminology',
+      'Interactive web-based user interface',
+    ],
+    technologies: [
+      'Python',
+      'Streamlit',
+      'Generative AI',
+      'Gemini API',
+      'PDF Processing',
+    ],
+    imageCaption: 'LEGALEASE — AI-POWERED LEGAL INTELLIGENCE',
   },
   {
     number: '04',
-    title: 'AI Meeting-to-Execution Operator',
-    subtitle: 'Meeting Intelligence & Action Extraction',
+    title: 'Innovate Graphicz Website',
+    subtitle: 'Digital Branding & Creative Agency Platform',
+    src: "/ig.png",
+    liveDemo: "https://www.innovategraphicz.tech",
     description:
-      'An end-to-end AI system transforming raw audio/video meeting recordings into structured, searchable transcripts, action items, and actionable outcomes.',
+      'A digital presence for Innovate Graphicz, a student-led creative agency focused on branding, digital marketing, design, and technology-driven business growth.',
     features: [
-      'Audio and video pipeline processing',
-      'Speech transcription & speaker diarization',
-      'Transcript chunking & semantic organization',
-      'Vector storage and embeddings generation',
-      'Action-item extraction and meeting intelligence',
+      'Creative agency brand presentation',
+      'Digital branding and service showcase',
+      'Responsive website experience',
+      'Portfolio and project presentation',
+      'Business-focused user experience',
     ],
-    technologies: ['Python', 'OpenAI APIs', 'LangChain', 'MoviePy', 'ChromaDB', 'Speech Pipelines'],
-    imageCaption: 'MEETING-TO-EXECUTION — VECTOR EMBEDDING PIPELINE',
+    technologies: [
+      'React.js',
+      'JavaScript',
+      'HTML5',
+      'CSS3',
+      'Tailwind CSS',
+      'SUpabase',
+    ],
+    imageCaption: 'INNOVATE GRAPHICZ — DIGITAL BRANDING AGENCY',
   },
   {
     number: '05',
-    title: 'BookMyShow Console Application',
-    subtitle: 'OOP & Data Structures Booking Engine',
+    title: 'Rotaract Club of KPRCAS Website',
+    subtitle: 'Community Engagement & Club Digital Platform',
+    src: "/rac.png",
+    liveDemo: "https://rac-2026.vercel.app/",
     description:
-      'A robust Java console application demonstrating object-oriented programming fundamentals and data structure design through a simulated movie ticketing workflow.',
+      'A dedicated website concept for the Rotaract Club of KPRCAS, designed to strengthen its digital presence, showcase community initiatives, and communicate club activities, events, and social impact.',
     features: [
-      'Administrative seat and screen management',
-      'Two-dimensional seat-map matrix handling',
-      'Structured booking and ticketing operations',
-      'Clean OOP architecture & state encapsulation',
+      'Club identity and mission presentation',
+      'Events and activities showcase',
+      'Community service initiative highlights',
+      'Member engagement and participation information',
+      'Responsive design for accessible browsing',
     ],
-    technologies: ['Java', 'OOP', 'Data Structures', '2D Arrays'],
-    imageCaption: 'BOOKMYSHOW — CONSOLE OOP SYSTEM',
-  },
-  {
-    number: '06',
-    title: 'AI Research Workflow System',
-    subtitle: 'Intelligent Research & Report Automation',
-    description:
-      'An AI-assisted workflow designed to accelerate information synthesis, structured research gathering, and document preparation using cutting-edge productivity AI.',
-    features: [
-      'Prompt-based deep research synthesis',
-      'Structured information organization',
-      'Automated slide and report preparation',
-      'Cross-tool productivity pipelines',
+    technologies: [
+      'React.js',
+      'JavaScript',
+      'HTML5',
+      'CSS3',
+      'Tailwind CSS',
+      'Responsive Web Design',
     ],
-    technologies: ['ChatGPT', 'Google Gemini', 'Gamma AI', 'Prompt Workflows'],
-    imageCaption: 'AI RESEARCH — WORKFLOW PIPELINE',
-  },
-  {
-    number: '07',
-    title: 'AI Paper & Report Generator',
-    subtitle: 'Citation Intelligence Hackathon Project',
-    team: 'Team INNOVATRIX — Runner-Up at Aqua Tech Foundation Hackathon',
-    description:
-      'A Generative AI hackathon innovation focused on automating research-paper and formal report generation with an emphasis on citation-aware, verifiable drafting.',
-    features: [
-      'Citation-aware content generation',
-      'Automated research paper drafting',
-      'Structured academic formatting',
-      'Contextual fact and reference verification',
-    ],
-    technologies: ['Generative AI', 'Python', 'LLMs', 'Citation Engine'],
-    imageCaption: 'CITATION INTELLIGENCE — REPORT GENERATOR',
-  },
-  {
-    number: '08',
-    title: 'Smart Campus Event Management',
-    subtitle: 'Coordinated Campus Digital Experience',
-    team: 'NANO Hackathon — CITE Spotlight 2026',
-    description:
-      'A campus-focused digital workflow platform making event organization, schedule coordination, and student participation structured and intuitive.',
-    features: [
-      'Campus event coordination dashboard',
-      'Digital registration and check-in workflows',
-      'Student participation analytics',
-      'User-friendly responsive interfaces',
-    ],
-    technologies: ['Web Technologies', 'Event Workflows', 'UI/UX Design'],
-    imageCaption: 'CAMPUS MANAGEMENT — DIGITAL PLATFORM',
-  },
-  {
-    number: '09',
-    title: 'Multimodal Evidence Review System',
-    subtitle: 'Vision-Language Model & Rule Engine',
-    description:
-      'A technical research prototype exploring a hybrid Vision-Language Model (VLM) and deterministic rule-engine approach to validating multimodal visual evidence.',
-    features: [
-      'Visual evidence image and text analysis',
-      'Model-based reasoning combined with rule validation',
-      'Structured audit logs and JSON output generation',
-      'Automated evaluation pipelines',
-    ],
-    technologies: ['Vision-Language Models', 'Python', 'Rule Engines', 'Multimodal AI'],
-    imageCaption: 'MULTIMODAL EVIDENCE — VLM VALIDATION PIPELINE',
+    imageCaption: 'ROTARACT KPRCAS — COMMUNITY & EVENT EXPERIENCE',
   },
 ]
 
@@ -168,12 +151,12 @@ const fadeInUp = {
 
 export function Projects() {
   return (
-    <section id="projects" className="section-padding">
+    <section id="selected-work" className="section-padding">
       <div className="max-w-7xl mx-auto">
         {/* Section Title */}
         <motion.div {...fadeInUp} className="mb-16">
           <span className="text-sm text-gray-500 tracking-widest uppercase font-mono">
-            Featured Portfolio
+            Selected Work
           </span>
           <div className="w-6 h-px bg-gray-600 mt-2" />
         </motion.div>
@@ -182,7 +165,7 @@ export function Projects() {
           {...fadeInUp}
           className="font-display text-[10vw] lg:text-section leading-none tracking-tight mb-16 lg:mb-24"
         >
-          FEATURED<br />PROJECTS
+          SELECTED WORK
         </motion.h2>
 
         {/* Projects List */}
@@ -216,9 +199,10 @@ export function Projects() {
                     )}
                   </div>
 
-                  {/* Blank Image Slot for this project */}
+                  {/* Image Slot for this project */}
                   <div className="mt-6">
                     <ImageSlot
+                      src={project.src}
                       alt={`${project.title} Screenshot`}
                       caption={project.imageCaption || `${project.title.toUpperCase()} INTERFACE`}
                       aspectRatio="aspect-[16/10]"

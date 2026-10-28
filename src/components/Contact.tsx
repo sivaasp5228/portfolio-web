@@ -96,10 +96,10 @@ export function Contact() {
           </p>
           <div className="flex flex-col sm:flex-row gap-4 sm:gap-8 md:gap-16">
             <a
-              href="mailto:contact@sivaasp.dev"
+              href="mailto:sivaasp1078@gmail.com"
               className="text-base lg:text-lg text-gray-300 hover:text-white transition-colors underline underline-offset-4 font-light"
             >
-              contact@sivaasp.dev
+              sivaasp1078@gmail.com
             </a>
             <a
               href="https://github.com/sivaasp5228"
@@ -110,12 +110,12 @@ export function Contact() {
               GitHub / sivaasp5228
             </a>
             <a
-              href="https://linkedin.com"
+              href="https://www.linkedin.com/in/sivaasp5127/"
               target="_blank"
               rel="noopener noreferrer"
               className="text-base lg:text-lg text-gray-300 hover:text-white transition-colors underline underline-offset-4 font-light"
             >
-              LinkedIn Profile
+              LinkedIn / Sivaa SP
             </a>
           </div>
         </motion.div>

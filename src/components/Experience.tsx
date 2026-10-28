@@ -16,72 +16,156 @@ interface ExperienceItem {
 
 const experiences: ExperienceItem[] = [
   {
+    role: 'Founder & CEO',
+    organization: 'BROSTER GROUPS',
+    type: 'Entrepreneurship & Leadership',
+    period: 'Present',
+    location: 'Coimbatore, Tamil Nadu, India',
+    description:
+      'Leading BROSTER GROUPS with a vision to build an innovative business ecosystem spanning technology, entrepreneurship, creative industries, and future ventures.',
+    highlights: [
+      'Developing the long-term vision and strategic direction of the group',
+      'Exploring opportunities across technology, business, and innovation',
+      'Driving business development and strategic partnerships',
+      'Building a foundation for scalable ventures and collaborative growth',
+    ],
+    tags: [
+      'Entrepreneurship',
+      'Strategic Leadership',
+      'Business Development',
+      'Innovation',
+    ],
+  },
+  {
+    role: 'Co-Founder',
+    organization: 'INNOVATE GRAPHICZ',
+    type: 'A Digital Branding Agency',
+    period: 'Present',
+    location: 'Tiruppur, Tamil Nadu, India',
+    description:
+      'Co-founded a student-led digital branding and creative agency focused on helping businesses strengthen their digital presence through design, technology, and strategic branding.',
+    highlights: [
+      'Contributing to business strategy and agency development',
+      'Supporting website development and digital experiences',
+      'Exploring branding, graphic design, and creative solutions',
+      'Contributing to digital marketing and client-focused initiatives',
+    ],
+    tags: [
+      'Entrepreneurship',
+      'Digital Branding',
+      'Web Development',
+      'Creative Technology',
+    ],
+  },
+  {
+    role: 'Board Member',
+    organization: 'ENTREPRENEURSHIP DEVELOPMENT CELL',
+    type: 'Student Leadership',
+    period: 'Present',
+    location: 'KPRCAS, Tamil Nadu, India',
+    description:
+      'Contributing to the entrepreneurship ecosystem by supporting initiatives that encourage innovation, startup awareness, and entrepreneurial thinking among students.',
+    highlights: [
+      'Supporting entrepreneurship-focused initiatives',
+      'Encouraging student innovation and startup awareness',
+      'Collaborating on entrepreneurial activities and initiatives',
+      'Contributing to a culture of creativity and business thinking',
+    ],
+    tags: [
+      'Entrepreneurship',
+      'Student Leadership',
+      'Innovation',
+      'Community Building',
+    ],
+  },
+  {
+    role: 'Student Coordinator',
+    organization: 'CENTER FOR INNOVATION AND TALENT EMPOWERMENT',
+    type: 'Student Coordination & Leadership',
+    period: 'Present',
+    location: 'KPRCAS, Tamil Nadu, India',
+    description:
+      'Serving as a student coordinator, supporting innovation-driven initiatives, student collaboration, and activities focused on identifying and developing student talent.',
+    highlights: [
+      'Coordinating student-focused initiatives and activities',
+      'Supporting communication and collaboration among participants',
+      'Encouraging innovation and talent development',
+      'Contributing to the planning and execution of initiatives',
+    ],
+    tags: [
+      'Student Coordination',
+      'Leadership',
+      'Communication',
+      'Innovation',
+    ],
+  },
+  {
+    role: 'Web Service Chair',
+    organization: 'ROTARACT CLUB OF KPRCAS',
+    type: 'Club Leadership & Community Service',
+    period: 'Present',
+    location: 'KPRCAS, Tamil Nadu, India',
+    description:
+      'Contributing to the club’s digital presence and web-related initiatives while supporting communication, event visibility, and community engagement through technology.',
+    highlights: [
+      'Supporting the club’s website and digital presence',
+      'Showcasing club activities, events, and service initiatives',
+      'Contributing to digital communication and content presentation',
+      'Using technology to support member and community engagement',
+    ],
+    tags: [
+      'Web Development',
+      'Digital Communication',
+      'Event Promotion',
+      'Community Engagement',
+    ],
+  },
+  {
+    role: 'UI & Media Associate',
+    organization: 'KPRCAS Website Development Team',
+    type: 'Website Development & Media',
+    period: '5 Months',
+    location: 'KPRCAS, Tamil Nadu, India',
+    description:
+      'Contributed to the college website development team as a UI & Media Associate, supporting user interface design and media-related activities to strengthen the institution’s digital presence.',
+    highlights: [
+      'Contributed to website UI design and visual presentation',
+      'Supported digital media and visual content development',
+      'Helped maintain a consistent visual identity across website content',
+      'Collaborated with the team on institutional digital experiences',
+    ],
+    tags: [
+      'UI Design',
+      'Digital Media',
+      'Visual Communication',
+      'Web Development',
+    ],
+  },
+  {
     role: 'AI Tools & Automation Intern',
-    organization: 'EFOS',
+    organization: 'EFOS.in',
     type: 'Internship',
-    period: '2026',
+    period: '1.5 Months',
     location: 'Virtual',
     description:
-      'Participated in a structured internship focused on exploring state-of-the-art AI productivity tools, chatbot architectures, and automated media pipelines.',
+      'Participated in a practical internship focused on AI-powered productivity tools, chatbot integration, and generative AI workflows for digital applications and media creation.',
     highlights: [
       'Explored AI-powered productivity and automation tools',
-      'Integrated a Chatbase custom chatbot into live web applications',
-      'Worked with AI video-generation workflows including Google Veo Flow, Grok Imagine, and ElevenLabs',
-      'Completed assigned practical technical challenges and live project deliverables',
+      'Integrated a Chatbase chatbot into a live web application',
+      'Experimented with AI media-generation workflows',
+      'Completed practical assignments and project deliverables',
     ],
-    tags: ['AI Automation', 'Chatbase', 'Google Veo Flow', 'ElevenLabs', 'Productivity AI'],
-    link: 'https://nexoraai-efos.netlify.app/',
-    linkLabel: 'View NexoraAI Practical Work',
-  },
-  {
-    role: 'Full Stack Web Development Intern',
-    organization: 'Thiranex',
-    type: 'Internship',
-    period: 'Practical Track',
-    location: 'Tamil Nadu, India',
-    description:
-      'Completed a practical full-stack web development internship focused on strengthening real-world web architecture, styling, and application engineering.',
-    highlights: [
-      'Frontend web development and responsive UI design',
-      'Website structure, modern semantic HTML, and CSS styling',
-      'Core JavaScript and programming fundamentals',
-      'Full-stack development concepts and building practical user experiences',
+    tags: [
+      'AI Automation',
+      'Chatbase',
+      'Generative AI',
+      'AI Media Tools',
+      'Productivity AI',
     ],
-    tags: ['Web Development', 'Frontend', 'JavaScript', 'UI/UX', 'Full Stack'],
+    link: 'https://enroll-ai-efos.vercel.app/',
+    linkLabel: 'View EnrollAI Practical Work',
   },
-  {
-    role: 'Co-Founder & Tech Lead',
-    organization: 'Innovate Graphicz',
-    type: 'Student Initiative • Incubated under KPR Incubation Hub',
-    period: 'Present',
-    location: 'KPRCAS Incubation Hub',
-    description:
-      'A student-led digital branding and web initiative incubated under the KPR Incubation Hub, combining creativity, technology, and impact-first digital strategies.',
-    highlights: [
-      'Web application development and responsive website delivery',
-      'Graphic, logo, and brand identity design for businesses',
-      'Digital branding and growth consultancy using AI-assisted creative workflows',
-      'Video editing, social media management, and sustainability-aligned digital reach',
-    ],
-    tags: ['Digital Branding', 'Web Development', 'Creative Tech', 'Entrepreneurship', 'AI Workflows'],
-  },
-  {
-    role: 'Lead Project Collaborator',
-    organization: 'Team INNOVATRIX',
-    type: 'Hackathon & Technology Collective',
-    period: 'Active',
-    location: 'KPRCAS / Inter-College',
-    description:
-      'Active collaboration on competitive hackathons and innovative technology prototypes spanning AI, document intelligence, research systems, and web tools.',
-    highlights: [
-      'Collaborative product development and rapid MVP prototyping',
-      'Technical problem-solving and AI API integrations',
-      'Project coordination, team ideation, and live jury presentations',
-      'Secured Top 10 at EFOS SkillUp & Runner-Up at Aqua Tech GenAI Hackathon',
-    ],
-    tags: ['Team INNOVATRIX', 'Hackathons', 'Rapid Prototyping', 'AI Engineering'],
-  },
-]
+];
 
 const fadeInUp = {
   initial: { opacity: 0, y: 50 },
@@ -106,7 +190,7 @@ export function Experience() {
           {...fadeInUp}
           className="font-display text-[10vw] lg:text-section leading-none tracking-tight mb-16 lg:mb-24"
         >
-          EXPERIENCE &<br />LEADERSHIP
+          EXPERIENCE & LEADERSHIP
         </motion.h2>
 
         {/* Experience List */}

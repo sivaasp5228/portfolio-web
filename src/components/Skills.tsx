@@ -7,7 +7,33 @@ interface SkillCategory {
 
 const skillCategories: SkillCategory[] = [
   {
-    title: 'Artificial Intelligence & Generative AI',
+    title: 'Event Management & Strategy',
+    skills: [
+      'Event Planning & Coordination',
+      'Event Concept Development',
+      'Event Operations',
+      'Audience Engagement',
+      'Team & Volunteer Coordination',
+      'Event Marketing & Promotion',
+      'On-Ground Execution',
+      'Networking & Community Building',
+    ],
+  },
+  {
+    title: 'Entrepreneurship & Business',
+    skills: [
+      'Business Development',
+      'Strategic Planning',
+      'Creative Problem Solving',
+      'Brand Strategy',
+      'Project Management',
+      'Team Leadership',
+      'Stakeholder Coordination',
+      'Presentation & Communication',
+    ],
+  },
+  {
+    title: 'Artificial Intelligence & Automation',
     skills: [
       'Generative AI & LLMs',
       'Gemini API Integration',
@@ -15,36 +41,36 @@ const skillCategories: SkillCategory[] = [
       'Prompt Engineering',
       'AI Chatbots & Agents',
       'Document Intelligence',
-      'Speech-to-Text & Transcriptions',
+      'Speech-to-Text & Transcription',
       'Vector Databases & Embeddings',
     ],
   },
   {
-    title: 'Programming Languages',
-    skills: ['Java', 'Python', 'JavaScript', 'SQL'],
-  },
-  {
-    title: 'Frontend Development',
+    title: 'Programming & Development',
     skills: [
+      'Java',
+      'Python',
+      'JavaScript',
+      'SQL',
       'React.js',
-      'Vite',
-      'Tailwind CSS',
-      'JavaScript (ES6+)',
       'HTML5 & CSS3',
+      'Tailwind CSS',
       'Responsive Web Design',
     ],
   },
   {
-    title: 'Backend & APIs',
+    title: 'Backend & API Development',
     skills: [
       'Node.js',
       'Express.js',
       'Python Flask',
       'REST API Integration',
+      'API Development',
+      'Third-Party Integrations',
     ],
   },
   {
-    title: 'Databases & Cloud Platforms',
+    title: 'Databases & Deployment',
     skills: [
       'MySQL',
       'PostgreSQL',
@@ -52,32 +78,8 @@ const skillCategories: SkillCategory[] = [
       'Supabase',
       'MongoDB Atlas',
       'Git & GitHub',
-      'Vercel & Netlify',
-    ],
-  },
-  {
-    title: 'AI & Productivity Tools',
-    skills: [
-      'ChatGPT',
-      'Google Gemini',
-      'Claude',
-      'Gamma AI',
-      'Grok AI',
-      'Canva AI',
-      'Google Veo Flow',
-      'ElevenLabs',
-    ],
-  },
-  {
-    title: 'Professional & Leadership Skills',
-    skills: [
-      'Problem Solving',
-      'Team Collaboration',
-      'Leadership',
-      'Creative Thinking',
-      'Presentation & Communication',
-      'Research & Analysis',
-      'Adaptability',
+      'Vercel',
+      'Netlify',
     ],
   },
 ]
@@ -91,7 +93,7 @@ const fadeInUp = {
 
 export function Skills() {
   return (
-    <section id="skills" className="section-padding bg-[#0d0d0d]">
+    <section id="expertise" className="section-padding bg-[#0d0d0d]">
       <div className="max-w-7xl mx-auto">
         {/* Section Title */}
         <motion.div {...fadeInUp} className="mb-16">
@@ -103,7 +105,7 @@ export function Skills() {
           {...fadeInUp}
           className="font-display text-[10vw] lg:text-section leading-none tracking-tight mb-16 lg:mb-24"
         >
-          TECHNICAL<br />& CORE SKILLS
+          EXPERTISE
         </motion.h2>
 
         {/* Categorized Skills Grid */}

@@ -28,7 +28,7 @@ export function Hero() {
             className="mb-4 sm:mb-6"
           >
             <span className="text-xs sm:text-sm font-mono tracking-[0.25em] text-gray-500 uppercase">
-            CO FOUNDER • WEB DEVELOPER • TECH TRAINER
+            FOUNDER • ENTREPRENEUR • EVENT STRATEGIST
             </span>
           </motion.div>
 
@@ -51,13 +51,14 @@ export function Hero() {
             >
               <div className="md:col-span-6 mt-22">
                 <p className="text-base sm:text-lg text-white font-light leading-relaxed">
-                  Building intelligent solutions. Automating workflows. Turning startup ideas into impact solutions.
+                Creating Experiences.<br />
+                Engineering Possibilities.
                 </p>
                 <div className="mt-4 flex flex-wrap gap-2 text-[11px] font-mono text-gray-500">
-                  <span className="px-2 py-0.5 border border-zinc-800 rounded">Generative AI</span>
-                  <span className="px-2 py-0.5 border border-zinc-800 rounded">Full Stack</span>
-                  <span className="px-2 py-0.5 border border-zinc-800 rounded">AI Agents</span>
-                  <span className="px-2 py-0.5 border border-zinc-800 rounded">Workflow Automation</span>
+                  <span className="px-2 py-0.5 border border-zinc-800 rounded">Event Management</span>
+                  <span className="px-2 py-0.5 border border-zinc-800 rounded">AI & Automation</span>
+                  <span className="px-2 py-0.5 border border-zinc-800 rounded">Event Strategy</span>
+                  <span className="px-2 py-0.5 border border-zinc-800 rounded">Marketing</span>
                 </div>
               </div>
             </motion.div>

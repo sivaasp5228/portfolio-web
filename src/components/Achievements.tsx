@@ -12,50 +12,115 @@ interface Achievement {
 
 const achievements: Achievement[] = [
   {
-    title: 'EFOS SkillUp Hackathon 2026',
-    organizer: 'EFOS',
-    result: 'Top 9 Position (Top 10 Finalist)',
+    title: 'Peridhinum Peridhu Kel — 2nd Edition',
+    organizer: 'Mission Millionaire Club & Gnana Sanjeevanam Gurukulam',
+    result: 'Volunteer & Host',
     year: '2026',
     description:
-      'Participated as Team INNOVATRIX, achieving a Top 9 finish among competitive teams and earning selection for the EFOS Free Six-Week Virtual Internship Program.',
-    team: 'Team INNOVATRIX',
+      'Volunteered and hosted the second edition of "Peridhinum Peridhu Kel" at Le Méridien, Coimbatore, supporting event hosting and audience engagement.',
+    team: 'Event Operations',
   },
   {
-    title: 'GEN AI Hackathon',
-    organizer: 'Aqua Tech Foundation',
-    result: 'Runner-Up Award',
-    year: '2025',
+    title: 'Mission One - From Job Seekers to Job Creators',
+    organizer: 'EDC, KPRCAS',
+    result: 'Event Organizer',
+    year: '2026',
     description:
-      'Developed and demonstrated an AI paper and report generation system with citation intelligence, earning Runner-Up honours.',
+      'Organized the "Mission One" Mass Entrepreneurship Rally, promoting entrepreneurial thinking and the transition from job seekers to job creators.',
+    team: 'EDC KPRCAS',
+  },
+  {
+    title: 'Founders Summit 2026 - The Voice of Grassroots',
+    organizer: 'EDC, KPRCAS',
+    result: 'Organizer & Execution Team',
+    year: '2026',
+    description:
+      'Organized and executed Founders Summit 2026, "The Voice of Grassroots," focused on bringing grassroots entrepreneurial voices into the spotlight.',
+    team: 'EDC KPRCAS',
+  },
+  {
+    title: 'Illuminate Workshop 2026',
+    organizer: 'EDC KPRCAS × IIT Bombay E-Cell',
+    result: 'Event Organizer',
+    year: '2026',
+    description:
+      'Organized the Illuminate Workshop 2026 in collaboration with IIT Bombay E-Cell, supporting entrepreneurship-focused learning and engagement.',
+    team: 'EDC KPRCAS',
+  },
+  {
+    title: 'Eureka 2026 - Startup Pitch',
+    organizer:
+      'EDC KPRCAS × B.Com IT × CITE × KPRCAS Incubation Hub × IIT Bombay E-Cell',
+    result: 'Event Organizer',
+    year: '2026',
+    description:
+      'Organized Eureka 2026, a startup pitch event conducted in collaboration with B.Com IT, CITE, KPRCAS Incubation Hub, and IIT Bombay E-Cell.',
+    team: 'EDC KPRCAS',
+  },
+  {
+    title: 'Think Entrepreneur, Become Entrepreneur',
+    organizer: 'EDC, KPRCAS',
+    result: 'Campaign Organizer',
+    year: '2026',
+    description:
+      'Organized the "Think Entrepreneur, Become Entrepreneur" social media campaign to promote entrepreneurial awareness and inspire aspiring entrepreneurs.',
+    team: 'EDC KPRCAS',
+  },
+  {
+    title: 'Algorhythm 2026',
+    organizer: 'SOISDS, KPRCAS',
+    result: 'Technical Coordinator',
+    year: '2026',
+    description:
+      'Served as Technical Coordinator for Algorhythm 2026, conducted in collaboration with SOISDS, KPRCAS, and CITE, KPRCAS, coordinating technical operations and supporting the smooth execution of the event.',
+    team: 'SOISDS, KPRCAS',
+  },
+  {
+    title: 'Idea to Impact — National-Level Hackathon',
+    organizer: 'NxtWave Academy',
+    result: 'Finalist',
+    year: '2026',
+    description:
+      'Participated in the Idea to Impact national-level offline hackathon held in Hyderabad, reaching the finalist stage and reprented KPRCAS on a national stage.',
+    team: 'Team ZENOVATRIX',
+  },
+  {
+    title: 'GEN AI Hackathon Workshop',
+    organizer: 'Aqua Tech Foundation × CITE, KPRCAS',
+    result: 'Runner-Up',
+    year: '2026',
+    description:
+      'Secured Runner-Up in a three-day Generative AI hackathon workshop conducted by Aqua Tech Foundation and CITE at KPRCAS.',
     team: 'Team INNOVATRIX',
   },
   {
     title: 'Hacksprint 2.0',
-    organizer: 'National Hackathon Series',
-    result: '36-Hour Hackathon Participant',
-    year: '2025',
+    organizer: 'Karpagam Academy of Higher Education (KAHE)',
+    result: 'National-Level Hackathon Finalist',
+    year: '2026',
     description:
-      'Collaborated intensively in a 36-hour continuous sprint with Team INNOVATRIX to architect and pitch an innovative technology solution.',
+      'Reached the finalist stage of Hacksprint 2.0, a national-level hackathon conducted at Karpagam Academy of Higher Education, Coimbatore.',
     team: 'Team INNOVATRIX',
   },
   {
-    title: 'NANO HACKATHON — CITE Spotlight 2026',
-    organizer: 'CITE Spotlight',
-    result: 'Campus Innovation Finalist',
-    year: '2026',
-    description:
-      'Ideated and prototyped a Smart Campus Event Management solution for streamlined collegiate events and student engagement.',
-    team: 'Campus Innovation',
-  },
-  {
-    title: 'DSA Codeverse Challenge',
-    organizer: 'NxtWave CCBP 4.0 Academy',
-    result: 'Rank 32 / 700 Participants',
+    title: 'RAC-A-THON - 24-Hour Hackathon',
+    organizer: 'Rotaract Club of KPRCAS',
+    result: 'Best Male Coder',
     year: '2025',
     description:
-      'Completed the intensive competitive programming challenge, securing 32nd rank among 700 coders and earning the DSA achievement credential.',
+      'Recognized as Best Male Coder for technical performance in the 24-hour RAC-A-THON conducted at KPRCAS.',
+    team: 'Team Quantum Draft',
   },
-]
+  {
+    title: 'RAC-A-THON - 24-Hour Hackathon',
+    organizer: 'Rotaract Club of KPRCAS',
+    result: 'Runner-Up - ₹2,500 Cash Prize',
+    year: '2025',
+    description:
+      'Secured Runner-Up in the 24-hour RAC-A-THON and received a cash prize of ₹2,500 at KPRCAS.',
+    team: 'Team Quantum Draft',
+  },
+];
 
 const fadeInUp = {
   initial: { opacity: 0, y: 40 },
@@ -80,7 +145,7 @@ export function Achievements() {
           {...fadeInUp}
           className="font-display text-[10vw] lg:text-section leading-none tracking-tight mb-16 lg:mb-24"
         >
-          HACKATHONS &<br />ACHIEVEMENTS
+          ACHIEVEMENTS
         </motion.h2>
 
         {/* Achievements List */}

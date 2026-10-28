@@ -14,7 +14,7 @@ export function About() {
       <div className="max-w-7xl mx-auto">
         {/* Section Label */}
         <motion.div {...fadeInUp} className="mb-16">
-          <span className="text-sm text-gray-500 tracking-widest uppercase font-mono">About Sivaa</span>
+          <span className="text-sm text-gray-500 tracking-widest uppercase font-mono">About Me</span>
           <div className="w-6 h-px bg-gray-600 mt-2" />
         </motion.div>
 
@@ -25,9 +25,10 @@ export function About() {
             className="order-2 lg:order-1"
           >
             <ImageSlot
+              src="me.png"
               alt="Profile or Academic Visual"
-              caption="KPR COLLEGE OF ARTS, SCIENCE AND RESEARCH - TAMIL NADU / INDIA"
-              subcaption="Department of Artificial Intelligence & Machine Learning"
+              caption="FOUNDER - BROSTER GROUPS"
+              subcaption="• A Global Parenting Agency"
               aspectRatio="aspect-[4/3]"
             />
           </motion.div>
@@ -38,13 +39,13 @@ export function About() {
             className="order-1 lg:order-2 flex flex-col justify-center space-y-6"
           >
             <h3 className="text-2xl sm:text-3xl lg:text-4xl font-light text-white leading-tight">
-              Aspiring AI & Software Developer solving real-world problems.
+              Building Technology. Creating Experiences. Leading Ideas.
             </h3>
             <p className="text-base lg:text-lg text-gray-300 leading-relaxed font-light">
-              I'm an aspiring AI and software developer who believes technology should solve real problems, simplify complex processes, and create opportunities for innovation.
+              I'm an aspiring technologist, entrepreneur, and event strategist passionate about creating memorable experiences and innovative solutions. I enjoy planning events, coordinating teams, and bringing people together through creativity, collaboration, and strategic execution.
             </p>
             <p className="text-sm lg:text-base text-gray-400 leading-relaxed font-light">
-              My journey combines programming, web development, AI-powered automation, entrepreneurship, and teamwork. I have worked on academic projects, AI prototypes, hackathon solutions, and digital products while continuously improving my technical and problem-solving abilities.
+              Alongside event management, I explore AI, software development, and automation to transform ideas into reality. My vision is to combine technology and human connection to create impactful events, meaningful experiences, and innovative ventures.
             </p>
           </motion.div>
         </div>
@@ -62,12 +63,12 @@ export function About() {
             <span className="text-white underline underline-offset-8">BECOME ENTREPRENEUR</span><br />
           </h2>
           <p className="mt-8 text-sm font-mono text-gray-500 tracking-widest uppercase">
-            BUILD. INNOVATE. AUTOMATE. REPEAT.
+            BUILD. INNOVATE. EXECUTE. REPEAT.
           </p>
         </motion.div>
 
         {/* Second Block: Communities & Teamwork */}
-        <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 lg:gap-24 mb-24 lg:mb-32">
+        <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 lg:gap-24">
           <motion.div
             {...fadeInUp}
             className="flex flex-col justify-center space-y-6"
@@ -76,13 +77,13 @@ export function About() {
               Community & Innovation
             </span>
             <h3 className="text-xl sm:text-2xl lg:text-3xl font-light text-white">
-              Beyond Coding: Innovation & Collaboration
+              Creating Experiences. Building the Future.
             </h3>
             <p className="text-base lg:text-lg text-gray-300 leading-relaxed font-light">
-              Beyond coding, I actively participate in technology communities, internships, hackathons, and collaborative projects. Through my involvement with Innovate Graphicz and Team INNOVATRIX, I have explored product development, branding, research, teamwork, and presenting innovative ideas.
+              I'm an entrepreneur and event enthusiast passionate about planning impactful events, bringing people together, and turning creative ideas into memorable experiences at about planning impactful events, bringing people together, and turning creative ideas into memorable experiences.
             </p>
             <p className="text-sm lg:text-base text-gray-400 leading-relaxed font-light">
-              My goal is to become a skilled AI engineer and software developer capable of building intelligent, scalable, and impactful technology solutions.
+              Alongside event management, I explore AI and software development to build innovative solutions. I aim to bridge technology, creativity, and human connection to create meaningful impact.
             </p>
           </motion.div>
 
@@ -91,47 +92,12 @@ export function About() {
             transition={{ ...fadeInUp.transition, delay: 0.2 }}
           >
             <ImageSlot
+              src="mee.png"
               alt="Hackathons & Project Collaborations"
-              caption="TEAM INNOVATRIX & INNOVATE GRAPHICZ"
-              subcaption="Incubated under KPR Incubation Hub • Product Ideation & Hackathons"
+              caption="CO-FOUNDER INNOVATE GRAPHICZ"
+              subcaption="• Digital Branding Agency"
               aspectRatio="aspect-[4/3]"
             />
-          </motion.div>
-        </div>
-
-        {/* Third Block: Journey & Goals */}
-        <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 lg:gap-24">
-          <motion.div {...fadeInUp}>
-            <ImageSlot
-              alt="AI Workflow & Development"
-              caption="FULL STACK ARCHITECTURE & AI AGENTS"
-              subcaption="Intelligent Systems & Scalable Product Engineering"
-              aspectRatio="aspect-[4/3]"
-            />
-          </motion.div>
-
-          <motion.div
-            {...fadeInUp}
-            transition={{ ...fadeInUp.transition, delay: 0.2 }}
-            className="flex flex-col justify-center space-y-6"
-          >
-            <div>
-              <span className="text-xs font-mono uppercase tracking-widest text-gray-500 block mb-2">
-                Development Journey
-              </span>
-              <p className="text-sm lg:text-base text-gray-300 leading-relaxed mb-4 font-light">
-                I believe becoming a strong developer is about continuous learning, consistent practice, and building real projects. My journey focuses on strengthening Java & Python, mastering DSA, building full-stack platforms, and integrating Generative AI & agentic pipelines.
-              </p>
-            </div>
-
-            <div className="pt-4 border-t border-zinc-800">
-              <span className="text-xs font-mono uppercase tracking-widest text-gray-500 block mb-2">
-                Career Goals
-              </span>
-              <p className="text-sm lg:text-base text-gray-300 leading-relaxed font-light">
-                I aspire to work at the intersection of Artificial Intelligence, software engineering, and automation — contributing to AI engineering, full-stack systems, Generative AI applications, and research-driven innovation to solve real problems.
-              </p>
-            </div>
           </motion.div>
         </div>
       </div>

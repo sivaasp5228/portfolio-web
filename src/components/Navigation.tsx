@@ -5,27 +5,27 @@ import { cn } from '@/lib/utils'
 
 const navItems = [
   { id: 'about', label: 'About' },
-  { id: 'skills', label: 'Skills' },
-  { id: 'projects', label: 'Projects' },
+  { id: 'expertise', label: 'Expertise' },
+  { id: 'selected-work', label: 'Selected Work' },
   { id: 'experience', label: 'Experience' },
-  { id: 'education', label: 'Education' },
   { id: 'achievements', label: 'Achievements' },
-  { id: 'certifications', label: 'Certifications' },
+  { id: 'education', label: 'Education' },
   { id: 'contact', label: 'Contact' },
 ]
 
 const socialLinks = [
   { label: 'GitHub', href: 'https://github.com/sivaasp5228' },
-  { label: 'LinkedIn', href: 'https://linkedin.com' },
-  { label: 'Email', href: 'mailto:contact@sivaasp.dev' },
+  { label: 'LinkedIn', href: 'https://www.linkedin.com/in/sivaasp5127' },
+  { label: 'Email', href: 'mailto:sivaasp1078@gmail.com' },
 ]
 
 export function Navigation() {
-  const activeSection = useActiveSection()
+  const { activeSection, setActiveSection } = useActiveSection()
   const isVisible = useScrollVisibility()
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false)
 
   const scrollToSection = (sectionId: string) => {
+    setActiveSection(sectionId)
     const element = document.getElementById(sectionId)
     if (element) {
       element.scrollIntoView({ behavior: 'smooth' })

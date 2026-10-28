@@ -30,6 +30,7 @@ export function Education() {
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 lg:gap-24">
             <motion.div {...fadeInUp}>
               <ImageSlot
+                src="/kprcas.jpeg"
                 alt="KPRCAS Campus"
                 caption="KPR COLLEGE OF ARTS, SCIENCE AND RESEARCH - TAMIL NADU / INDIA"
                 subcaption="Academic Campus & Incubation Facilities"
